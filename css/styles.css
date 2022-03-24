@@ -1,0 +1,86 @@
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --active-text-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #2f303a;
+}
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+/* Header */
+/* Navigation panel */
+.nav a {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.first-logo-part {
+  color: var(--active-text-color);
+}
+.nav-list a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.nav-list a:hover,
+.nav-list a:focus,
+.nav .nav-active {
+  color: var(--active-text-color);
+  text-decoration: none;
+}
+/* Contacts */
+.contacts a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.contacts a:hover {
+  color: var(--active-text-color);
+}
+
+/* Hero section */
+.hero {
+  background: #2f303a;
+}
+.hero-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.hero-button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--active-text-color);
+}
