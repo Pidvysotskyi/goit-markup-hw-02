@@ -9,9 +9,10 @@ body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
 }
+
 /* Header */
 /* Navigation panel */
-.nav a {
+.nav-logo {
   color: var(--secondary-text-color);
   text-decoration: none;
   font-family: "Raleway";
@@ -24,22 +25,29 @@ body {
 .first-logo-part {
   color: var(--active-text-color);
 }
-.nav-list a {
+.second-black-part {
+  color: var(--secondary-text-color);
+}
+.nav-list {
+  list-style-type: none;
+}
+.nav-item {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-}
-.nav-list a:hover,
-.nav-list a:focus,
-.nav .nav-active {
-  color: var(--active-text-color);
+  color: var(--secondary-text-color);
   text-decoration: none;
 }
+.nav-item:hover,
+.nav-item:focus,
+.nav-item.nav-active {
+  color: var(--active-text-color);
+}
 /* Contacts */
-.contacts a {
+.contact {
   text-decoration: none;
   color: var(--primary-text-color);
   font-family: "Roboto";
@@ -49,7 +57,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.contacts a:hover {
+.contact:hover {
   color: var(--active-text-color);
 }
 
@@ -83,4 +91,88 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--active-text-color);
+}
+/* Section "The main principles" */
+.hiden-title {
+  visibility: hidden;
+}
+.principle-list {
+  list-style-type: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.principle-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+/* Section "What we are doing */
+.section-heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.jobs-list {
+  list-style-type: none;
+}
+/* Section "Our team */
+.team {
+  background-color: #f5f4fa;
+}
+.team-list {
+  list-style-type: none;
+}
+.team-member {
+  background-color: var(--primary-bg-color);
+}
+.team-member .photo {
+}
+.team-member .name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.team-member .position {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* Footer */
+footer {
+  background-color: var(--secondary-bg-color);
+}
+.second-white-part {
+  color: #ffffff;
+}
+.address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
