@@ -2,6 +2,7 @@
   --primary-text-color: #757575;
   --secondary-text-color: #212121;
   --third-text-color: #ffffff;
+  --trasparent-text-color: rgba(255, 255, 255, 0.6);
   --active-text-color: #2196f3;
   --primary-bg-color: #ffffff;
   --secondary-bg-color: #2f303a;
@@ -15,7 +16,9 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
-
+.unformated-list {
+  list-style-type: none;
+}
 /* Header */
 /* Navigation panel */
 .top-line {
@@ -36,9 +39,7 @@ body {
 .second-black-part {
   color: var(--secondary-text-color);
 }
-.nav-list {
-  list-style-type: none;
-}
+
 .nav-item {
   font-weight: 500;
   line-height: 1.14;
@@ -98,9 +99,7 @@ body {
 .hiden-title {
   visibility: hidden;
 }
-.principle-list {
-  list-style-type: none;
-}
+
 .principle-title {
   font-weight: 700;
   line-height: 1.14;
@@ -118,15 +117,9 @@ body {
   text-align: center;
   color: var(--secondary-text-color);
 }
-.jobs-list {
-  list-style-type: none;
-}
 /* Section "Our team */
 .team {
   background-color: var(--third-bg-color);
-}
-.team-list {
-  list-style-type: none;
 }
 .team-member {
   background-color: var(--primary-bg-color);
@@ -153,19 +146,23 @@ footer {
 .second-white-part {
   color: var(--third-text-color);
 }
-.address {
-  font-weight: 400;
+.bottom-contacts {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
+}
+.bottom-contact {
+  text-decoration: none;
+  color: var(--trasparent-text-color);
+}
+.address {
   color: var(--third-text-color);
 }
 
 /* Portfolio page */
 
 /* Filter buttons */
-.filter-list {
-  list-style-type: none;
-}
+
 .filter {
   cursor: pointer;
   color: var(--secondary-text-color);
@@ -188,9 +185,6 @@ footer {
 }
 /* Project list */
 
-.project-list {
-  list-style-type: none;
-}
 .project-item {
   border: 1px solid var(--primary-border-color);
   box-sizing: border-box;
